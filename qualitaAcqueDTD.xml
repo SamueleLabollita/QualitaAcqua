@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE acquadotti [
+    <!ELEMENT acquadotti (infoAcq+)>
+    <!ELEMENT infoAcq (codAcq, acquedotto, comune, siglaProv, cap, codProd, produttore, luogoPrel, etichetta)>
+    <!ELEMENT codAcq (#PCDATA)>
+    <!ELEMENT acquedotto (#PCDATA)>
+    <!ELEMENT comune (#PCDATA)>
+    <!ELEMENT siglaProv (#PCDATA)>
+    <!ELEMENT cap (#PCDATA)>
+    <!ELEMENT codProd (#PCDATA)>
+    <!ELEMENT produttore (#PCDATA)>
+    <!ELEMENT luogoPrel (#PCDATA)>
+    <!ELEMENT etichetta (#PCDATA)>
+]>
+<acquadotti>
+    <infoAcq>
+        <codAcq>"ACQ001"</codacq>
+        <acquedotto>"ACQUEDOTTO DI BIBBONA"</acquedotto>
+        <comune>"BIBBONA"</comune>
+        <siglaProv>"LI"</siglaProv>
+        <cap>"57020"</cap>
+        <codProd>"BI15"</codProd>
+        <produttore>"P.ZA GRAMSCI"</produttore>
+        <luogoPrel>"FONTANELLA"</luogoPrel>
+        <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ001.pdf"</etichetta>
+    </infoAcq>
+    <infoAcq>
+        <codAcq>"ACQ006"</codAcq>
+        <acquedotto>"CAMPIGLIA MARITTIMA"</acquedotto>
+        <comune>"CAMPIGLIA MARITTIMA"</comune>
+        <siglaProv>"LI"</siglaProv>
+        <cap>"57021"</cap>
+        <codProd>"CA14"</codProd>
+        <produttore>"DISTR. ASL VENTURINA"</produttore>
+        <luogoPrel>"FONTANELLA"</luogoPrel>
+        <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ006.pdf"</etichetta>
+    </infoAcq>
+    <infoAcq>
+        <codAcq>"ACQ010"</codAcq>
+        <acquedotto>"ACQUEDOTTO DI PORTO AZZURRO-CAPOLIVERI"</acquedotto>
+        <comune>"CAPOLIVERI"</comune>
+        <siglaProv>"LI"</siglaProv>
+        <cap>"57031"</cap>
+        <codProd>"CL06"</codProd>
+        <produttore>"VIA ROMA - PAESE"</produttore>
+        <luogoPrel>"ELBA"</luogoPrel>
+        <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ010-capoliveri.pdf"</etichetta>
+    </infoAcq>
+    <infoAcq>
+        <codAcq>"ACQ011"</codAcq>
+        <acquedotto>"ACQUEDOTTO DI CAPRAIA ISOLA"</acquedotto>
+        <comune>"CAPRAIA ISOLA"</comune>
+        <siglaProv>"LI"</siglaProv>
+        <cap>"57032"</cap>
+        <codProd>"CP08"</codProd>
+        <produttore>"P.ZZA MILANO (VICINO CHIESA)"</produttore>
+        <luogoPrel>"FONTANELLA"</luogoPrel>
+        <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ011.pdf"</etichetta>
+    </infoAcq>
+</acquadotti>
