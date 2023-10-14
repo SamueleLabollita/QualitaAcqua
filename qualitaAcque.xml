@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="qualitaAcqueXSL.xsl"?>
 <acquadotti>
     <infoAcq>
-        <codAcq>"ACQ001"</codacq>
+        <codAcq>"ACQ001"</codAcq>
         <acquedotto>"ACQUEDOTTO DI BIBBONA"</acquedotto>
         <comune>"BIBBONA"</comune>
         <siglaProv>"LI"</siglaProv>
