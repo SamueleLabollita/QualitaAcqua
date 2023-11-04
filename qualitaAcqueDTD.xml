@@ -2,7 +2,9 @@
 <!DOCTYPE acquadotti [
     <!ELEMENT acquadotti (infoAcq+)>
     <!ELEMENT infoAcq (codAcq, acquedotto, comune, siglaProv, cap, codProd, produttore, luogoPrel, etichetta)>
-    <!ELEMENT codAcq (#PCDATA)>
+    <!ELEMENT codAcq (codice, classe)>
+    <!ELEMENT codice (#PCDATA)>
+    <!ELEMENT classe (#PCDATA)>
     <!ELEMENT acquedotto (#PCDATA)>
     <!ELEMENT comune (#PCDATA)>
     <!ELEMENT siglaProv (#PCDATA)>
@@ -14,7 +16,10 @@
 ]>
 <acquadotti>
     <infoAcq>
-        <codAcq>"ACQ001"</codAcq>
+        <codAcq>
+            <codice>"ACQ001"</codice>
+            <classe nome="Samuele"></classe>
+        </codAcq>
         <acquedotto>"ACQUEDOTTO DI BIBBONA"</acquedotto>
         <comune>"BIBBONA"</comune>
         <siglaProv>"LI"</siglaProv>
@@ -25,7 +30,10 @@
         <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ001.pdf"</etichetta>
     </infoAcq>
     <infoAcq>
-        <codAcq>"ACQ006"</codAcq>
+        <codAcq>
+            <codice>"ACQ006"</codice>
+            <classe nome="Samuele"></classe>
+        </codAcq>
         <acquedotto>"CAMPIGLIA MARITTIMA"</acquedotto>
         <comune>"CAMPIGLIA MARITTIMA"</comune>
         <siglaProv>"LI"</siglaProv>
@@ -36,7 +44,10 @@
         <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ006.pdf"</etichetta>
     </infoAcq>
     <infoAcq>
-        <codAcq>"ACQ010"</codAcq>
+        <codAcq>
+            <codice>"ACQ010"</codice>
+            <classe nome="Samuele"></classe>
+        </codAcq>
         <acquedotto>"ACQUEDOTTO DI PORTO AZZURRO-CAPOLIVERI"</acquedotto>
         <comune>"CAPOLIVERI"</comune>
         <siglaProv>"LI"</siglaProv>
@@ -47,7 +58,10 @@
         <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ010-capoliveri.pdf"</etichetta>
     </infoAcq>
     <infoAcq>
-        <codAcq>"ACQ011"</codAcq>
+        <codAcq>
+            <codice>"ACQ011"</codice>
+            <classe nome="Samuele"></classe>
+        </codAcq>
         <acquedotto>"ACQUEDOTTO DI CAPRAIA ISOLA"</acquedotto>
         <comune>"CAPRAIA ISOLA"</comune>
         <siglaProv>"LI"</siglaProv>

@@ -16,10 +16,10 @@
       </style>
     </head>
     <body>
-      <h1>Acquadotti Information</h1>
+      <h1>nformazione Acquadotti </h1>
       <table>
         <tr>
-          <th>Code</th>
+          <th>Codice</th>
           <th>Acquedotto</th>
           <th>Comune</th>
           <th>SiglaProv</th>
@@ -28,10 +28,11 @@
           <th>Produttore</th>
           <th>LuogoPrel</th>
           <th>Etichetta</th>
+          <th>Nome</th>
         </tr>
         <xsl:for-each select="acquadotti/infoAcq">
           <tr>
-            <td><xsl:value-of select="codAcq"/></td>
+            <td><xsl:value-of select="codAcq/codice"/></td>
             <td><xsl:value-of select="acquedotto"/></td>
             <td><xsl:value-of select="comune"/></td>
             <td><xsl:value-of select="siglaProv"/></td>
@@ -40,6 +41,7 @@
             <td><xsl:value-of select="produttore"/></td>
             <td><xsl:value-of select="luogoPrel"/></td>
             <td><a href="{etichetta}"><xsl:value-of select="etichetta"/></a></td>
+            <td><xsl:value-of select="codAcq/classe/@nome"/></td>
           </tr>
         </xsl:for-each>
       </table>

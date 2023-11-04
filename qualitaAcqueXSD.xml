@@ -7,6 +7,16 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="codAcq" type="xs:string" maxOccurs="1"/>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="codice" type="xs:string" maxOccurs="1"/>
+                    <xs:element name="classe">
+                      <xs:complexType>
+                        <xs:attribute name="nome" type="xs:string" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
               <xs:element name="acquedotto" type="xs:string" maxOccurs="1"/>
               <xs:element name="comune" type="xs:string" maxOccurs="1"/>
               <xs:element name="siglaProv" type="xs:string" maxOccurs="1"/>
