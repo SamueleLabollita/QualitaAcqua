@@ -19,7 +19,7 @@
     <infoAcq>
         <codAcq>
             <codice>"ACQ006"</codice>
-            <classe nome="Samuele"></classe>
+            <classe nome="Labollita"></classe>
         </codAcq>
         <acquedotto>"CAMPIGLIA MARITTIMA"</acquedotto>
         <comune>"CAMPIGLIA MARITTIMA"</comune>
@@ -33,7 +33,7 @@
     <infoAcq>
         <codAcq>
             <codice>"ACQ010"</codice>
-            <classe nome="Samuele"></classe>
+            <classe nome="Nicola"></classe>
         </codAcq>
         <acquedotto>"ACQUEDOTTO DI PORTO AZZURRO-CAPOLIVERI"</acquedotto>
         <comune>"CAPOLIVERI"</comune>
