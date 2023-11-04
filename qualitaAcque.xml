@@ -3,59 +3,58 @@
 <acquadotti>
     <infoAcq>
         <codAcq>
-            <codice>"ACQ001"</codice>
-            <classe nome="Samuele"></classe>
+            <codice>ACQ001</codice>
+            <classe nome="Samuele"/>
         </codAcq>
-        <acquedotto>"ACQUEDOTTO DI BIBBONA"</acquedotto>
-        <comune>"BIBBONA"</comune>
-        <siglaProv>"LI"</siglaProv>
-        <cap>"57020"</cap>
-        <codProd>"BI15"</codProd>
-        <produttore>"P.ZA GRAMSCI"</produttore>
-        <luogoPrel>"FONTANELLA"</luogoPrel>
-        <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ001.pdf"</etichetta>
-
+        <acquedotto>ACQUEDOTTO DI BIBBONA</acquedotto>
+        <comune>BIBBONA</comune>
+        <siglaProv>LI</siglaProv>
+        <cap>57020</cap>
+        <codProd>BI15</codProd>
+        <produttore>P.ZA GRAMSCI</produttore>
+        <luogoPrel>FONTANELLA</luogoPrel>
+        <etichetta>http://www.datiopen.it/asa_qualita_acque/ACQ001.pdf</etichetta>
     </infoAcq>
     <infoAcq>
         <codAcq>
-            <codice>"ACQ006"</codice>
-            <classe nome="Labollita"></classe>
+            <codice>ACQ006</codice>
+            <classe nome="Labollita"/>
         </codAcq>
-        <acquedotto>"CAMPIGLIA MARITTIMA"</acquedotto>
-        <comune>"CAMPIGLIA MARITTIMA"</comune>
-        <siglaProv>"LI"</siglaProv>
-        <cap>"57021"</cap>
-        <codProd>"CA14"</codProd>
-        <produttore>"DISTR. ASL VENTURINA"</produttore>
-        <luogoPrel>"FONTANELLA"</luogoPrel>
-        <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ006.pdf"</etichetta>
+        <acquedotto>CAMPIGLIA MARITTIMA</acquedotto>
+        <comune>CAMPIGLIA MARITTIMA</comune>
+        <siglaProv>LI</siglaProv>
+        <cap>57021</cap>
+        <codProd>CA14</codProd>
+        <produttore>DISTR. ASL VENTURINA</produttore>
+        <luogoPrel>FONTANELLA</luogoPrel>
+        <etichetta>http://www.datiopen.it/asa_qualita_acque/ACQ006.pdf</etichetta>
     </infoAcq>
     <infoAcq>
         <codAcq>
-            <codice>"ACQ010"</codice>
-            <classe nome="Nicola"></classe>
+            <codice>ACQ010</codice>
+            <classe nome="Nicola"/>
         </codAcq>
-        <acquedotto>"ACQUEDOTTO DI PORTO AZZURRO-CAPOLIVERI"</acquedotto>
-        <comune>"CAPOLIVERI"</comune>
-        <siglaProv>"LI"</siglaProv>
-        <cap>"57031"</cap>
-        <codProd>"CL06"</codProd>
-        <produttore>"VIA ROMA - PAESE"</produttore>
-        <luogoPrel>"ELBA"</luogoPrel>
-        <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ010-capoliveri.pdf"</etichetta>
+        <acquedotto>ACQUEDOTTO DI PORTO AZZURRO-CAPOLIVERI</acquedotto>
+        <comune>CAPOLIVERI</comune>
+        <siglaProv>LI</siglaProv>
+        <cap>57031</cap>
+        <codProd>CL06</codProd>
+        <produttore>VIA ROMA - PAESE</produttore>
+        <luogoPrel>ELBA</luogoPrel>
+        <etichetta>http://www.datiopen.it/asa_qualita_acque/ACQ010-capoliveri.pdf</etichetta>
     </infoAcq>
     <infoAcq>
         <codAcq>
-            <codice>"ACQ011"</codice>
-            <classe nome="Samuele"></classe>
+            <codice>ACQ011</codice>
+            <classe nome="Samuele"/>
         </codAcq>
-        <acquedotto>"ACQUEDOTTO DI CAPRAIA ISOLA"</acquedotto>
-        <comune>"CAPRAIA ISOLA"</comune>
-        <siglaProv>"LI"</siglaProv>
-        <cap>"57032"</cap>
-        <codProd>"CP08"</codProd>
-        <produttore>"P.ZZA MILANO (VICINO CHIESA)"</produttore>
-        <luogoPrel>"FONTANELLA"</luogoPrel>
-        <etichetta>"http://www.datiopen.it/asa_qualita_acque/ACQ011.pdf"</etichetta>
+        <acquedotto>ACQUEDOTTO DI CAPRAIA ISOLA</acquedotto>
+        <comune>CAPRAIA ISOLA</comune>
+        <siglaProv>LI</siglaProv>
+        <cap>57032</cap>
+        <codProd>CP08</codProd>
+        <produttore>P.ZZA MILANO (VICINO CHIESA)</produttore>
+        <luogoPrel>FONTANELLA</luogoPrel>
+        <etichetta>http://www.datiopen.it/asa_qualita_acque/ACQ011.pdf</etichetta>
     </infoAcq>
 </acquadotti>
