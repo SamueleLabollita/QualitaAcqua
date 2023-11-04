@@ -6,10 +6,10 @@
         <xs:element name="infoAcq" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="codAcq" type="xs:string" maxOccurs="1"/>
+              <xs:element name="codAcq">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="codice" type="xs:string" maxOccurs="1"/>
+                    <xs:element name="codice" type="xs:string"/>
                     <xs:element name="classe">
                       <xs:complexType>
                         <xs:attribute name="nome" type="xs:string" use="optional"/>
@@ -17,14 +17,15 @@
                     </xs:element>
                   </xs:sequence>
                 </xs:complexType>
-              <xs:element name="acquedotto" type="xs:string" maxOccurs="1"/>
-              <xs:element name="comune" type="xs:string" maxOccurs="1"/>
-              <xs:element name="siglaProv" type="xs:string" maxOccurs="1"/>
-              <xs:element name="cap" type="xs:string" maxOccurs="1"/>
-              <xs:element name="codProd" type="xs:string" maxOccurs="1"/>
-              <xs:element name="produttore" type="xs:string" maxOccurs="1"/>
-              <xs:element name="luogoPrel" type="xs:string" maxOccurs="1"/>
-              <xs:element name="etichetta" type="xs:string" maxOccurs="1"/>
+              </xs:element>
+              <xs:element name="acquedotto" type="xs:string"/>
+              <xs:element name="comune" type="xs:string"/>
+              <xs:element name="siglaProv" type="xs:string"/>
+              <xs:element name="cap" type="xs:string"/>
+              <xs:element name="codProd" type="xs:string"/>
+              <xs:element name="produttore" type="xs:string"/>
+              <xs:element name="luogoPrel" type="xs:string"/>
+              <xs:element name="etichetta" type="xs:anyURI"/>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
