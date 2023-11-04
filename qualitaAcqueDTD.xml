@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE acquadotti [
-    <!ELEMENT acquadotti (infoAcq+)>
-    <!ELEMENT infoAcq (codAcq, acquedotto, comune, siglaProv, cap, codProd, produttore, luogoPrel, etichetta)>
-    <!ELEMENT codAcq (codice, classe)>
-    <!ELEMENT codice (#PCDATA)>
-    <!ELEMENT classe (#PCDATA)>
-    <!ELEMENT acquedotto (#PCDATA)>
-    <!ELEMENT comune (#PCDATA)>
-    <!ELEMENT siglaProv (#PCDATA)>
-    <!ELEMENT cap (#PCDATA)>
-    <!ELEMENT codProd (#PCDATA)>
-    <!ELEMENT produttore (#PCDATA)>
-    <!ELEMENT luogoPrel (#PCDATA)>
-    <!ELEMENT etichetta (#PCDATA)>
+<!ELEMENT acquadotti (infoAcq+)>
+<!ELEMENT infoAcq (codAcq, acquedotto, comune, siglaProv, cap, codProd, produttore, luogoPrel, etichetta)>
+<!ELEMENT codAcq (codice, classe)>
+<!ELEMENT codice (#PCDATA)>
+<!ELEMENT classe EMPTY>
+<!ATTLIST classe
+    nome CDATA #IMPLIED>
+<!ELEMENT acquedotto (#PCDATA)>
+<!ELEMENT comune (#PCDATA)>
+<!ELEMENT siglaProv (#PCDATA)>
+<!ELEMENT cap (#PCDATA)>
+<!ELEMENT codProd (#PCDATA)>
+<!ELEMENT produttore (#PCDATA)>
+<!ELEMENT luogoPrel (#PCDATA)>
+<!ELEMENT etichetta (#PCDATA)>
 ]>
 <acquadotti>
     <infoAcq>
